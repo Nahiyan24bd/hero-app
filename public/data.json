@@ -1,0 +1,902 @@
+[
+  {
+    "image": "https://cdn.simpleicons.org/slack/4A154B",
+    "title": "Slack",
+    "companyName": "Slack Technologies",
+    "id": 16,
+    "description": "Slack brings team communication and collaboration into one place so you can get more work done. Stay connected with direct messages, dedicated topic channels, file sharing, and integrated productivity tools.",
+    "size": 92,
+    "reviews": "1400K",
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 70000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 360000 },
+      { "name": "5 star", "count": 800000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/notion/000000",
+    "title": "Notion: Notes, Docs, Tasks",
+    "companyName": "Notion Labs, Inc.",
+    "id": 17,
+    "description": "A unified workspace where you can write, plan, collaborate, and organize. Notion adapts to your everyday needs whether you are taking notes, managing complex projects, or building team wikis.",
+    "size": 58,
+    "reviews": "980K",
+    "ratingAvg": 4.7,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 210000 },
+      { "name": "5 star", "count": 660000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/googledrive/4285F4",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 18,
+    "description": "Store, share, and collaborate on files and folders from your mobile device, tablet, or computer. Safe cloud storage with seamless file previewing and offline capabilities.",
+    "size": 75,
+    "reviews": "89000K",
+    "ratingAvg": 4.3,
+    "downloads": "5000M",
+    "ratings": [
+      { "name": "1 star", "count": 3500000 },
+      { "name": "2 star", "count": 4200000 },
+      { "name": "3 star", "count": 8300000 },
+      { "name": "4 star", "count": 24000000 },
+      { "name": "5 star", "count": 49000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/zoom/2D8CFF",
+    "title": "Zoom Workplace",
+    "companyName": "zoom.us",
+    "id": 19,
+    "description": "Work from anywhere with a single app combining team chat, meetings, phone, whiteboard, and collaborative spaces. Flawless video and clear audio on any network.",
+    "size": 115,
+    "reviews": "4200K",
+    "ratingAvg": 4.1,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 320000 },
+      { "name": "2 star", "count": 280000 },
+      { "name": "3 star", "count": 450000 },
+      { "name": "4 star", "count": 950000 },
+      { "name": "5 star", "count": 2200000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/discord/5865F2",
+    "title": "Discord: Talk, Chat & Hang Out",
+    "companyName": "Discord Inc.",
+    "id": 20,
+    "description": "Discord is your place to talk, hang out, and connect with communities and friends. Create invite-only servers, hop on low-latency voice and video channels, and send real-time text messages.",
+    "size": 105,
+    "reviews": "14500K",
+    "ratingAvg": 4.3,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1100000 },
+      { "name": "2 star", "count": 950000 },
+      { "name": "3 star", "count": 1450000 },
+      { "name": "4 star", "count": 3200000 },
+      { "name": "5 star", "count": 7800000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/pinterest/BD081C",
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "id": 21,
+    "description": "Discover lifestyle inspiration, design concepts, DIY crafts, and recipes. Save your favorite ideas to customized boards and curate visual moodboards easily.",
+    "size": 88,
+    "reviews": "10500K",
+    "ratingAvg": 4.5,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 520000 },
+      { "name": "2 star", "count": 480000 },
+      { "name": "3 star", "count": 890000 },
+      { "name": "4 star", "count": 2410000 },
+      { "name": "5 star", "count": 6200000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/signal/3A76F0",
+    "title": "Signal Private Messenger",
+    "companyName": "Signal Foundation",
+    "id": 22,
+    "description": "Privacy isn't an optional mode — it's just the way Signal works. State-of-the-art end-to-end encryption keeps your conversations secure with disappearing messages and encrypted calling.",
+    "size": 62,
+    "reviews": "2400K",
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 140000 },
+      { "name": "4 star", "count": 480000 },
+      { "name": "5 star", "count": 1640000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/googlechrome/4285F4",
+    "title": "Google Chrome: Fast & Secure",
+    "companyName": "Google LLC",
+    "id": 23,
+    "description": "Fast, simple, and secure web browsing. Synchronize bookmarks and tabs across all devices, utilize built-in Google Translate, and browse safely with phishing defenses.",
+    "size": 95,
+    "reviews": "43000K",
+    "ratingAvg": 4.1,
+    "downloads": "10000M",
+    "ratings": [
+      { "name": "1 star", "count": 4100000 },
+      { "name": "2 star", "count": 2900000 },
+      { "name": "3 star", "count": 5200000 },
+      { "name": "4 star", "count": 9800000 },
+      { "name": "5 star", "count": 21000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/adobephotoshop/31A8FF",
+    "title": "Photoshop Express Photo Editor",
+    "companyName": "Adobe Inc.",
+    "id": 24,
+    "description": "Quick, powerful photo editing and collage making with one-touch corrections, color filters, noise reduction, and perspective correction tools.",
+    "size": 142,
+    "reviews": "2100K",
+    "ratingAvg": 4.4,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 110000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 460000 },
+      { "name": "5 star", "count": 1260000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/canva/00C4CC",
+    "title": "Canva: Design, Photo & Video",
+    "companyName": "Canva",
+    "id": 25,
+    "description": "Make graphic design remarkably easy. Create social media posts, presentations, logos, posters, and video edits with thousands of templates and drag-and-drop tools.",
+    "size": 48,
+    "reviews": "14000K",
+    "ratingAvg": 4.8,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 310000 },
+      { "name": "2 star", "count": 240000 },
+      { "name": "3 star", "count": 680000 },
+      { "name": "4 star", "count": 2570000 },
+      { "name": "5 star", "count": 10200000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/reddit/FF4500",
+    "title": "Reddit",
+    "companyName": "reddit Inc.",
+    "id": 26,
+    "description": "Dive into anything on Reddit. Join communities that interest you, share content, join authentic discussions, and follow breaking internet culture.",
+    "size": 84,
+    "reviews": "3200K",
+    "ratingAvg": 4.2,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 280000 },
+      { "name": "2 star", "count": 170000 },
+      { "name": "3 star", "count": 310000 },
+      { "name": "4 star", "count": 740000 },
+      { "name": "5 star", "count": 1700000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/soundcloud/FF3300",
+    "title": "SoundCloud: Play Music & Songs",
+    "companyName": "SoundCloud",
+    "id": 27,
+    "description": "Stream the world's largest audio and music catalog. Discover independent artists, DJ sets, underground tracks, and original podcasts.",
+    "size": 78,
+    "reviews": "6100K",
+    "ratingAvg": 4.5,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 340000 },
+      { "name": "2 star", "count": 220000 },
+      { "name": "3 star", "count": 480000 },
+      { "name": "4 star", "count": 1360000 },
+      { "name": "5 star", "count": 3700000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/threads/000000",
+    "title": "Threads",
+    "companyName": "Instagram",
+    "id": 28,
+    "description": "Say more with Threads — Instagram’s text-based conversation app. Connect directly with creators and friends to share ideas, opinions, and real-time updates.",
+    "size": 72,
+    "reviews": "1800K",
+    "ratingAvg": 4.1,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 410000 },
+      { "name": "5 star", "count": 880000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/microsoftteams/6264A7",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 29,
+    "description": "Whether you are collaborating with teammates or planning a community event, Microsoft Teams brings people together for meetings, chat, file collaboration, and calls.",
+    "size": 134,
+    "reviews": "5200K",
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 380000 },
+      { "name": "2 star", "count": 240000 },
+      { "name": "3 star", "count": 460000 },
+      { "name": "4 star", "count": 1220000 },
+      { "name": "5 star", "count": 2900000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/gmail/EA4335",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 30,
+    "description": "Secure, fast, and organized email by Google. Block over 99.9 percent of spam, malware, and phishing attacks before they ever reach your inbox.",
+    "size": 45,
+    "reviews": "12500K",
+    "ratingAvg": 4.3,
+    "downloads": "10000M",
+    "ratings": [
+      { "name": "1 star", "count": 850000 },
+      { "name": "2 star", "count": 680000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3170000 },
+      { "name": "5 star", "count": 6600000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/shazam/0088FF",
+    "title": "Shazam: Find Music & Concerts",
+    "companyName": "Apple Inc.",
+    "id": 31,
+    "description": "Shazam will identify any song in seconds. Discover artists, lyrics, videos, and playlists, all for free. Over 1 billion installs worldwide.",
+    "size": 38,
+    "reviews": "15200K",
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 410000 },
+      { "name": "2 star", "count": 280000 },
+      { "name": "3 star", "count": 680000 },
+      { "name": "4 star", "count": 2830000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/amazon/FF9900",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 32,
+    "description": "Browse, search, get product details, read reviews, and purchase millions of items with fast delivery, order tracking, and 24/7 customer support.",
+    "size": 94,
+    "reviews": "41000K",
+    "ratingAvg": 4.2,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 3500000 },
+      { "name": "2 star", "count": 2100000 },
+      { "name": "3 star", "count": 3900000 },
+      { "name": "4 star", "count": 9500000 },
+      { "name": "5 star", "count": 22000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/audible/F8991C",
+    "title": "Audible: Audio Entertainment",
+    "companyName": "Audible, Inc.",
+    "id": 33,
+    "description": "Immerse yourself in audiobooks, exclusive podcasts, and guided wellness programs. Download titles for offline listening whenever you are on the go.",
+    "size": 76,
+    "reviews": "1800K",
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 65000 },
+      { "name": "2 star", "count": 48000 },
+      { "name": "3 star", "count": 92000 },
+      { "name": "4 star", "count": 345000 },
+      { "name": "5 star", "count": 1250000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/uber/000000",
+    "title": "Uber: Request a ride",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 34,
+    "description": "Reliable rides in minutes. Choose from affordable everyday options to premium executive vehicles with real-time GPS tracking and cashless transactions.",
+    "size": 88,
+    "reviews": "14000K",
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 920000 },
+      { "name": "2 star", "count": 610000 },
+      { "name": "3 star", "count": 1120000 },
+      { "name": "4 star", "count": 3350000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/airbnb/FF5A5F",
+    "title": "Airbnb",
+    "companyName": "Airbnb",
+    "id": 35,
+    "description": "Find unique accommodations and vacation rentals across thousands of cities. Connect with local hosts and reserve unforgettable experiential activities.",
+    "size": 110,
+    "reviews": "4300K",
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 190000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 270000 },
+      { "name": "4 star", "count": 920000 },
+      { "name": "5 star", "count": 2800000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/itchdotio/FA5C5C",
+    "title": "Subway Surfers",
+    "companyName": "SYBO Games",
+    "id": 36,
+    "description": "Dash as fast as you can through subway tracks, dodge oncoming trains, and outrun the inspector using jetpacks and hoverboards in vibrant international cities.",
+    "size": 165,
+    "reviews": "41000K",
+    "ratingAvg": 4.5,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 1900000 },
+      { "name": "2 star", "count": 1400000 },
+      { "name": "3 star", "count": 2900000 },
+      { "name": "4 star", "count": 7800000 },
+      { "name": "5 star", "count": 27000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/roblox/000000",
+    "title": "Roblox",
+    "companyName": "Roblox Corporation",
+    "id": 37,
+    "description": "Roblox is the ultimate virtual universe that lets you create, share experiences with friends, and be anything you can imagine with millions of community-made 3D worlds.",
+    "size": 178,
+    "reviews": "36000K",
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 2800000 },
+      { "name": "2 star", "count": 1700000 },
+      { "name": "3 star", "count": 2900000 },
+      { "name": "4 star", "count": 6600000 },
+      { "name": "5 star", "count": 22000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/googlephotos/4285F4",
+    "title": "Google Photos",
+    "companyName": "Google LLC",
+    "id": 38,
+    "description": "The home for all your photos and videos, automatically organized and searchable. Features advanced editing tools and secure automated cloud backups.",
+    "size": 82,
+    "reviews": "46000K",
+    "ratingAvg": 4.4,
+    "downloads": "5000M",
+    "ratings": [
+      { "name": "1 star", "count": 2800000 },
+      { "name": "2 star", "count": 1900000 },
+      { "name": "3 star", "count": 3800000 },
+      { "name": "4 star", "count": 9500000 },
+      { "name": "5 star", "count": 28000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/twitch/9146FF",
+    "title": "Twitch: Live Game Streaming",
+    "companyName": "Twitch Interactive, Inc.",
+    "id": 39,
+    "description": "Watch live gaming videos, Esports, and any broadcast on your mobile screen. Chat live with streamers and join communities of millions of gamers worldwide.",
+    "size": 128,
+    "reviews": "5400K",
+    "ratingAvg": 4.3,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 310000 },
+      { "name": "3 star", "count": 520000 },
+      { "name": "4 star", "count": 1120000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/lichess/000000",
+    "title": "Chess - Play & Learn",
+    "companyName": "Chess.com",
+    "id": 40,
+    "description": "Play chess online with more than 150 million players around the world. Solve tactical puzzles, watch interactive video lessons, and play against adaptive computer bots.",
+    "size": 86,
+    "reviews": "4800K",
+    "ratingAvg": 4.8,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 110000 },
+      { "name": "2 star", "count": 85000 },
+      { "name": "3 star", "count": 210000 },
+      { "name": "4 star", "count": 895000 },
+      { "name": "5 star", "count": 3500000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/activision/000000",
+    "title": "Call of Duty: Mobile",
+    "companyName": "Activision Publishing, Inc.",
+    "id": 41,
+    "description": "Experience console-quality HD gaming on your phone with customizable controls, voice chat, and 3D graphics. Play iconic multiplayer maps and 100-player Battle Royale survival.",
+    "size": 2200,
+    "reviews": "16500K",
+    "ratingAvg": 4.3,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1400000 },
+      { "name": "2 star", "count": 920000 },
+      { "name": "3 star", "count": 1680000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/googleplay/414141",
+    "title": "8 Ball Pool",
+    "companyName": "Miniclip.com",
+    "id": 42,
+    "description": "The world's number one pool game. Play against friends or challenge international competitors in 1-vs-1 matches, enter tournaments, and win exclusive pool cues.",
+    "size": 105,
+    "reviews": "26000K",
+    "ratingAvg": 4.5,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2400000 },
+      { "name": "4 star", "count": 5600000 },
+      { "name": "5 star", "count": 15000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/github/181717",
+    "title": "GitHub",
+    "companyName": "GitHub",
+    "id": 43,
+    "description": "Coordinate work, review pull requests, triage issues, and organize projects on the move. Stay up to date with notifications from repositories you follow.",
+    "size": 42,
+    "reviews": "240K",
+    "ratingAvg": 4.7,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 4500 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 9100 },
+      { "name": "4 star", "count": 43200 },
+      { "name": "5 star", "count": 180000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/bitwarden/175DDC",
+    "title": "Bitwarden Password Manager",
+    "companyName": "Bitwarden Inc.",
+    "id": 44,
+    "description": "Secure, open-source password manager storing all logins and financial credentials inside an end-to-end encrypted vault accessible across all platforms.",
+    "size": 34,
+    "reviews": "210K",
+    "ratingAvg": 4.8,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 2100 },
+      { "name": "3 star", "count": 6800 },
+      { "name": "4 star", "count": 37900 },
+      { "name": "5 star", "count": 160000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/googletranslate/4285F4",
+    "title": "Google Translate",
+    "companyName": "Google LLC",
+    "id": 45,
+    "description": "Translate between over 100 languages. Translate text, conversations, signs with camera mode, and download language packs for full offline translation.",
+    "size": 52,
+    "reviews": "9200K",
+    "ratingAvg": 4.4,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 620000 },
+      { "name": "2 star", "count": 480000 },
+      { "name": "3 star", "count": 920000 },
+      { "name": "4 star", "count": 2180000 },
+      { "name": "5 star", "count": 5000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/applemusic/FA243C",
+    "title": "Apple Music",
+    "companyName": "Apple Inc.",
+    "id": 46,
+    "description": "Unlimited access to over 100 million songs, curated editorial playlists, live radio, and spatial audio with dynamic Dolby Atmos tracking.",
+    "size": 64,
+    "reviews": "1100K",
+    "ratingAvg": 4.2,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 75000 },
+      { "name": "3 star", "count": 110000 },
+      { "name": "4 star", "count": 245000 },
+      { "name": "5 star", "count": 550000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/vsco/000000",
+    "title": "VSCO: Photo & Video Editor",
+    "companyName": "Visual Supply Company",
+    "id": 47,
+    "description": "A premier creative editing studio offering aesthetic vintage film presets, framing parameters, grain textures, and professional video color grading tools.",
+    "size": 89,
+    "reviews": "1400K",
+    "ratingAvg": 4.1,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 180000 },
+      { "name": "2 star", "count": 95000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 325000 },
+      { "name": "5 star", "count": 650000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/waze/33CCFF",
+    "title": "Waze Navigation & Live Traffic",
+    "companyName": "Waze",
+    "id": 48,
+    "description": "Always know what's happening on the road. Waze informs you about traffic, construction, speed traps, crashes, and finds the fastest route in real-time.",
+    "size": 88,
+    "reviews": "8200K",
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 580000 },
+      { "name": "2 star", "count": 390000 },
+      { "name": "3 star", "count": 760000 },
+      { "name": "4 star", "count": 1870000 },
+      { "name": "5 star", "count": 4600000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/microsoft/5E5E5E",
+    "title": "Microsoft Authenticator",
+    "companyName": "Microsoft Corporation",
+    "id": 49,
+    "description": "Provides quick and secure two-factor identity verification for all your online accounts using multi-factor push approvals and one-time password codes.",
+    "size": 76,
+    "reviews": "1900K",
+    "ratingAvg": 4.7,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 42000 },
+      { "name": "2 star", "count": 31000 },
+      { "name": "3 star", "count": 82000 },
+      { "name": "4 star", "count": 345000 },
+      { "name": "5 star", "count": 1400000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/asana/F95738",
+    "title": "Asana: Work in one place",
+    "companyName": "Asana, Inc.",
+    "id": 50,
+    "description": "Organize work from small tasks to strategic goals so teams know what to do, why it matters, and how to execute together efficiently.",
+    "size": 56,
+    "reviews": "110K",
+    "ratingAvg": 4.5,
+    "downloads": "10M",
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 26500 },
+      { "name": "5 star", "count": 70000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/deezer/FEAA2D",
+    "title": "Deezer: Music & Podcast Player",
+    "companyName": "Deezer Music",
+    "id": 51,
+    "description": "Your music companion. Discover over 90 million songs, playlists, podcasts, and personal recommendations with high-fidelity sound streaming.",
+    "size": 68,
+    "reviews": "3100K",
+    "ratingAvg": 4.4,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 210000 },
+      { "name": "2 star", "count": 160000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 760000 },
+      { "name": "5 star", "count": 1650000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/bumble/FFC629",
+    "title": "Bumble: Dating & Friends App",
+    "companyName": "Bumble Holding Limited",
+    "id": 52,
+    "description": "A dating platform rooted in kindness and respect. Connect to date, make lifelong friends, or network professionally through Bumble Date, BFF, and Bizz.",
+    "size": 95,
+    "reviews": "1200K",
+    "ratingAvg": 4.1,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 140000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 130000 },
+      { "name": "4 star", "count": 290000 },
+      { "name": "5 star", "count": 560000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/tinder/FE3C72",
+    "title": "Tinder: Dating & Meet Friends",
+    "companyName": "Tinder",
+    "id": 53,
+    "description": "With 70+ billion matches to date, Tinder is the world's most popular dating app, making meeting new people easy and spontaneous.",
+    "size": 112,
+    "reviews": "6400K",
+    "ratingAvg": 3.8,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 520000 },
+      { "name": "3 star", "count": 780000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/paypal/00457C",
+    "title": "PayPal - Send, Shop, Manage",
+    "companyName": "PayPal Mobile",
+    "id": 54,
+    "description": "Send money securely to friends and family around the globe, make contactless store purchases, and track digital payment histories in one place.",
+    "size": 78,
+    "reviews": "3100K",
+    "ratingAvg": 4.3,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 280000 },
+      { "name": "2 star", "count": 140000 },
+      { "name": "3 star", "count": 280000 },
+      { "name": "4 star", "count": 720000 },
+      { "name": "5 star", "count": 1680000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/nordvpn/4687FF",
+    "title": "NordVPN: Fast & Secure VPN",
+    "companyName": "Nord Security",
+    "id": 55,
+    "description": "High-speed encrypted VPN privacy. Shield your browsing traffic from snoopers, protect public Wi-Fi connections, and secure your digital footprint.",
+    "size": 65,
+    "reviews": "920K",
+    "ratingAvg": 4.5,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 48000 },
+      { "name": "2 star", "count": 32000 },
+      { "name": "3 star", "count": 68000 },
+      { "name": "4 star", "count": 212000 },
+      { "name": "5 star", "count": 560000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/googlekeep/FFBB00",
+    "title": "Google Keep - Notes and Lists",
+    "companyName": "Google LLC",
+    "id": 56,
+    "description": "Quickly capture what's on your mind and get a reminder later at the right place or time. Create checklists, voice notes, and photo notes with ease.",
+    "size": 34,
+    "reviews": "1800K",
+    "ratingAvg": 4.4,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 110000 },
+      { "name": "2 star", "count": 85000 },
+      { "name": "3 star", "count": 160000 },
+      { "name": "4 star", "count": 425000 },
+      { "name": "5 star", "count": 1020000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/qrcode/000000",
+    "title": "QR & Barcode Scanner",
+    "companyName": "Gamma Play",
+    "id": 57,
+    "description": "Fast and essential QR scanner that automatically decodes all QR codes, coupons, Wi-Fi keys, contacts, calendar events, and product barcodes instantly.",
+    "size": 12,
+    "reviews": "6800K",
+    "ratingAvg": 4.7,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 95000 },
+      { "name": "3 star", "count": 280000 },
+      { "name": "4 star", "count": 1405000 },
+      { "name": "5 star", "count": 4900000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/ebay/E53238",
+    "title": "eBay: Online Shopping Marketplace",
+    "companyName": "eBay Mobile",
+    "id": 58,
+    "description": "Buy, sell, and discover rare collectibles, fashion, electronics, and refurbished tech with real-time bidding alerts and buyer protection.",
+    "size": 84,
+    "reviews": "5100K",
+    "ratingAvg": 4.6,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 240000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 390000 },
+      { "name": "4 star", "count": 1120000 },
+      { "name": "5 star", "count": 3200000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/vlcmediaplayer/FF8800",
+    "title": "VLC for Android",
+    "companyName": "Videolabs",
+    "id": 59,
+    "description": "VLC media player is a free and open-source cross-platform multimedia player that plays most multimedia files as well as discs, devices, and network streams.",
+    "size": 42,
+    "reviews": "1900K",
+    "ratingAvg": 4.3,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 75000 },
+      { "name": "3 star", "count": 160000 },
+      { "name": "4 star", "count": 425000 },
+      { "name": "5 star", "count": 1120000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/opera/FF1B2D",
+    "title": "Opera Browser: Fast & Private",
+    "companyName": "Opera",
+    "id": 60,
+    "description": "Fast web browser equipped with free built-in unlimited VPN, integrated ad blocker, AI assist, and personalized news feed for private browsing.",
+    "size": 72,
+    "reviews": "5100K",
+    "ratingAvg": 4.5,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 280000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 410000 },
+      { "name": "4 star", "count": 1130000 },
+      { "name": "5 star", "count": 3100000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/gitlab/FC6D26",
+    "title": "GitLab",
+    "companyName": "GitLab Inc.",
+    "id": 61,
+    "description": "Manage your continuous integration pipelines, monitor merge requests, and collaborate with your engineering squad directly from your phone.",
+    "size": 39,
+    "reviews": "65K",
+    "ratingAvg": 4.6,
+    "downloads": "1M",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 14300 },
+      { "name": "5 star", "count": 45000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/openai/412991",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 62,
+    "description": "Get instant answers, creative inspiration, and professional feedback with the official mobile AI application powered by OpenAI's advanced models.",
+    "size": 65,
+    "reviews": "5800K",
+    "ratingAvg": 4.7,
+    "downloads": "100M",
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 95000 },
+      { "name": "3 star", "count": 260000 },
+      { "name": "4 star", "count": 1125000 },
+      { "name": "5 star", "count": 4200000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/viber/7360F2",
+    "title": "Rakuten Viber Messenger",
+    "companyName": "Viber Media S.à r.l.",
+    "id": 63,
+    "description": "Secure, free calls and messaging for everyone across the world. End-to-end encrypted voice calling, stickers, GIFs, and group discussions.",
+    "size": 84,
+    "reviews": "15800K",
+    "ratingAvg": 4.4,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 1100000 },
+      { "name": "2 star", "count": 780000 },
+      { "name": "3 star", "count": 1420000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/truecaller/0087FF",
+    "title": "Truecaller: Caller ID & Block",
+    "companyName": "Truecaller",
+    "id": 64,
+    "description": "Identify unknown calls, block spam calls and robocalls, and find contact numbers instantly through community-driven caller identification.",
+    "size": 75,
+    "reviews": "21000K",
+    "ratingAvg": 4.3,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 1900000 },
+      { "name": "2 star", "count": 1100000 },
+      { "name": "3 star", "count": 2100000 },
+      { "name": "4 star", "count": 4900000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.simpleicons.org/adobeacrobatreader/EC1C24",
+    "title": "Adobe Acrobat Reader: Edit PDF",
+    "companyName": "Adobe Inc.",
+    "id": 65,
+    "description": "The trusted PDF reader and editor. View, comment, fill, sign, and print PDF documents securely from any smartphone or tablet.",
+    "size": 88,
+    "reviews": "11500K",
+    "ratingAvg": 4.5,
+    "downloads": "1000M",
+    "ratings": [
+      { "name": "1 star", "count": 720000 },
+      { "name": "2 star", "count": 430000 },
+      { "name": "3 star", "count": 950000 },
+      { "name": "4 star", "count": 2800000 },
+      { "name": "5 star", "count": 6600000 }
+    ]
+  }
+]
