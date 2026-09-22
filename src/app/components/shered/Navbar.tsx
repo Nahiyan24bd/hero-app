@@ -60,7 +60,7 @@ export default function Navbar() {
         {/* Right Action: GitHub Button & Mobile Menu Toggle */}
         <div className="flex items-center gap-3">
           <a
-            href="https://github.com/Nahiyan24bd/hero-app"
+            href="https://github.com/Nahiyan24bd"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-3.5 py-1.5 sm:px-4 sm:py-2 bg-linear-to-r from-[#7c3aed] to-[#6d28d9] text-white text-xs sm:text-sm font-medium rounded-lg shadow-sm hover:opacity-95 transition-opacity"

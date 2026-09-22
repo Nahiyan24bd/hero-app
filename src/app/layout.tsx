@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import "react-toastify/dist/ReactToastify.css"; // Required for toast styling & animations
+import "react-toastify/dist/ReactToastify.css";
 
 import Navbar from "./components/shered/Navbar";
 import Footer from "./components/shered/Footer";
@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "HERO.IO",
-  description: "We Build Productive Apps",
+  title: "HERO.IO - We Build Productive Apps",
+  description: "Explore and install top trending mobile and web applications.",
 };
 
 export default function RootLayout({
@@ -35,7 +35,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col justify-between bg-[#f8fafc]">
         <Navbar />
         <main className="flex-1">{children}</main>
-        <ToastContainer position="top-right" autoClose={2500} />
+        <ToastContainer position="top-right" autoClose={2500} theme="colored" />
         <Footer />
       </body>
     </html>
