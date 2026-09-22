@@ -7,11 +7,6 @@ import { FiTrash2, FiExternalLink, FiHardDrive, FiLayers, FiArrowRight } from 'r
 import { FaStar } from 'react-icons/fa';
 import { toast } from 'react-toastify';
 
-interface RatingDistribution {
-  name: string;
-  count: number;
-}
-
 interface AppItem {
   id: number;
   title: string;
@@ -22,7 +17,6 @@ interface AppItem {
   reviews: string;
   ratingAvg: number;
   downloads: string;
-  ratings?: RatingDistribution[];
 }
 
 export default function InstallationPage() {
@@ -51,55 +45,55 @@ export default function InstallationPage() {
     loadInstalledData();
   }, []);
 
-const handleUninstall = (id: number) => {
-  const target = installedApps.find((app) => app.id === id);
-  const savedIds: number[] = JSON.parse(
-    localStorage.getItem('installed_apps') || '[]'
-  );
-  const updated = savedIds.filter((savedId) => savedId !== id);
-  localStorage.setItem('installed_apps', JSON.stringify(updated));
-  setInstalledApps((prev) => prev.filter((app) => app.id !== id));
+  const handleUninstall = (id: number) => {
+    const target = installedApps.find((app) => app.id === id);
+    const savedIds: number[] = JSON.parse(
+      localStorage.getItem('installed_apps') || '[]'
+    );
+    const updated = savedIds.filter((savedId) => savedId !== id);
+    localStorage.setItem('installed_apps', JSON.stringify(updated));
+    setInstalledApps((prev) => prev.filter((app) => app.id !== id));
 
-  if (target) {
-    toast.warn(`${target.title} removed from installation list`);
-  }
-};
+    if (target) {
+      toast.warn(`${target.title} removed from collection`);
+    }
+  };
 
   const totalStorageSize = installedApps.reduce((acc, curr) => acc + (curr.size || 0), 0);
 
   return (
-    <div className="min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-[#f8fafc] dark:bg-[#0b0f19] py-12 px-4 sm:px-6 lg:px-8 transition-colors">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
-        <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-8 border-b border-slate-200">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 pb-8 border-b border-slate-200 dark:border-slate-800">
           <div>
-            <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">
+            <h1 className="text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">
               Installed Applications
             </h1>
-            <p className="mt-2 text-sm text-slate-500">
+            <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
               Manage your local installed application suite and disk usage.
             </p>
           </div>
 
           {/* Metrics summary */}
           <div className="flex items-center gap-4">
-            <div className="bg-white border border-slate-200/80 rounded-2xl px-5 py-3 shadow-xs flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center text-lg">
+            <div className="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl px-5 py-3 shadow-xs flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-purple-50 dark:bg-purple-950/50 text-[#7c3aed] flex items-center justify-center text-lg">
                 <FiLayers />
               </div>
               <div>
                 <p className="text-xs text-slate-400 font-medium">Total Apps</p>
-                <p className="text-base font-bold text-slate-800">{installedApps.length}</p>
+                <p className="text-base font-bold text-slate-800 dark:text-slate-100">{installedApps.length}</p>
               </div>
             </div>
 
-            <div className="bg-white border border-slate-200/80 rounded-2xl px-5 py-3 shadow-xs flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-lg">
+            <div className="bg-white dark:bg-slate-900 border border-slate-200/80 dark:border-slate-800 rounded-2xl px-5 py-3 shadow-xs flex items-center gap-3">
+              <div className="w-10 h-10 rounded-xl bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-lg">
                 <FiHardDrive />
               </div>
               <div>
                 <p className="text-xs text-slate-400 font-medium">Storage Used</p>
-                <p className="text-base font-bold text-slate-800">{totalStorageSize} MB</p>
+                <p className="text-base font-bold text-slate-800 dark:text-slate-100">{totalStorageSize} MB</p>
               </div>
             </div>
           </div>
@@ -109,26 +103,26 @@ const handleUninstall = (id: number) => {
         {loading ? (
           <div className="mt-8 space-y-4">
             {[...Array(3)].map((_, i) => (
-              <div key={i} className="bg-white p-5 rounded-2xl border border-slate-100 shadow-xs animate-pulse flex items-center justify-between">
+              <div key={i} className="bg-white dark:bg-slate-900 p-5 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-xs animate-pulse flex items-center justify-between">
                 <div className="flex items-center gap-4">
-                  <div className="w-16 h-16 bg-slate-200 rounded-xl" />
+                  <div className="w-16 h-16 bg-slate-200 dark:bg-slate-800 rounded-xl" />
                   <div className="space-y-2">
-                    <div className="h-4 bg-slate-200 rounded w-40" />
-                    <div className="h-3 bg-slate-200 rounded w-24" />
+                    <div className="h-4 bg-slate-200 dark:bg-slate-800 rounded w-40" />
+                    <div className="h-3 bg-slate-200 dark:bg-slate-800 rounded w-24" />
                   </div>
                 </div>
-                <div className="h-10 bg-slate-200 rounded w-28" />
+                <div className="h-10 bg-slate-200 dark:bg-slate-800 rounded w-28" />
               </div>
             ))}
           </div>
         ) : installedApps.length === 0 ? (
-          <div className="mt-16 text-center py-16 bg-white rounded-3xl border border-slate-200/80 shadow-xs max-w-xl mx-auto px-6">
-            <div className="w-16 h-16 bg-purple-50 text-purple-600 rounded-2xl mx-auto flex items-center justify-center text-2xl mb-4">
+          <div className="mt-16 text-center py-16 bg-white dark:bg-slate-900 rounded-3xl border border-slate-200/80 dark:border-slate-800 shadow-xs max-w-xl mx-auto px-6">
+            <div className="w-16 h-16 bg-purple-50 dark:bg-purple-950/40 text-purple-600 dark:text-purple-400 rounded-2xl mx-auto flex items-center justify-center text-2xl mb-4">
               <FiLayers />
             </div>
-            <h2 className="text-xl font-bold text-slate-800">No Apps Installed Yet</h2>
-            <p className="text-sm text-slate-500 mt-2 max-w-md mx-auto">
-              Explore the market catalogue and install your favorite tools to track them here.
+            <h2 className="text-xl font-bold text-slate-800 dark:text-white">No Apps Installed Yet</h2>
+            <p className="text-sm text-slate-500 dark:text-slate-400 mt-2 max-w-md mx-auto">
+              Explore the market catalog and install your favorite tools to track them here.
             </p>
             <Link
               href="/apps"
@@ -142,10 +136,10 @@ const handleUninstall = (id: number) => {
             {installedApps.map((app) => (
               <div
                 key={app.id}
-                className="bg-white p-4 sm:p-5 rounded-2xl border border-slate-100 hover:border-slate-200 shadow-xs transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4"
+                className="bg-white dark:bg-slate-900 p-4 sm:p-5 rounded-2xl border border-slate-100 dark:border-slate-800 hover:border-slate-200 dark:hover:border-slate-700 shadow-xs transition-all flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4"
               >
                 <div className="flex items-center gap-4">
-                  <div className="w-16 h-16 rounded-xl bg-slate-50 p-2.5 relative flex items-center justify-center shrink-0 border border-slate-100">
+                  <div className="w-16 h-16 rounded-xl bg-slate-50 dark:bg-slate-800/60 p-2.5 relative flex items-center justify-center shrink-0 border border-slate-100 dark:border-slate-800">
                     <Image
                       src={app.image}
                       alt={app.title}
@@ -155,11 +149,11 @@ const handleUninstall = (id: number) => {
                     />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-slate-900 text-base">{app.title}</h3>
+                    <h3 className="font-semibold text-slate-900 dark:text-slate-100 text-base">{app.title}</h3>
                     <p className="text-xs text-slate-400 mt-0.5">{app.companyName}</p>
-                    <div className="flex items-center gap-3 mt-2 text-xs font-medium text-slate-500">
+                    <div className="flex items-center gap-3 mt-2 text-xs font-medium text-slate-500 dark:text-slate-400">
                       <span className="flex items-center gap-1 text-amber-500 font-semibold">
-                        <FaStar className="text-[10px]" /> {app.ratingAvg.toFixed(1)}
+                        <FaStar className="text-[10px]" /> {app.ratingAvg ? app.ratingAvg.toFixed(1) : '5.0'}
                       </span>
                       <span>•</span>
                       <span>{app.size} MB</span>
@@ -170,14 +164,14 @@ const handleUninstall = (id: number) => {
                 <div className="flex items-center gap-3 w-full sm:w-auto justify-end">
                   <Link
                     href={`/apps/${app.id}`}
-                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 transition-colors"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold text-slate-700 dark:text-slate-300 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
                   >
                     Details <FiExternalLink />
                   </Link>
                   <button
                     type="button"
                     onClick={() => handleUninstall(app.id)}
-                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold text-rose-600 bg-rose-50 hover:bg-rose-100 transition-colors"
+                    className="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl text-xs font-semibold text-rose-600 bg-rose-50 dark:bg-rose-950/40 dark:hover:bg-rose-950/70 hover:bg-rose-100 transition-colors"
                   >
                     <FiTrash2 /> Uninstall
                   </button>

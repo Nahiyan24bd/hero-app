@@ -11,92 +11,69 @@ interface AppItem {
   title: string;
   image: string;
   companyName: string;
-  downloads: string;
+  description: string;
+  size: number;
+  reviews: string;
   ratingAvg: number;
+  downloads: string;
 }
 
-const TrendingApps = () => {
-  const [apps, setApps] = useState<AppItem[]>([]);
-  const [loading, setLoading] = useState(true);
+export default function TrendingApps() {
+  const [trendingApps, setTrendingApps] = useState<AppItem[]>([]);
 
   useEffect(() => {
     fetch('/data.json')
       .then((res) => res.json())
       .then((data: AppItem[]) => {
-        setApps(data);
-        setLoading(false);
+        setTrendingApps(data.slice(0, 8));
       })
-      .catch((err) => {
-        console.error('Failed to load apps:', err);
-        setLoading(false);
-      });
+      .catch((err) => console.error(err));
   }, []);
 
-  const visibleApps = apps.slice(0, 8);
-
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24 text-center">
-      {/* Header */}
-      <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0f172a] tracking-tight">
-        Trending Apps
-      </h2>
-      <p className="mt-3 text-sm sm:text-base text-slate-500 max-w-xl mx-auto">
-        Explore All Trending Apps on the Market developed by us
-      </p>
-
-      {/* 4-Column Cards Grid */}
-      {loading ? (
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
-          {[...Array(8)].map((_, i) => (
-            <div
-              key={i}
-              className="bg-white rounded-2xl p-4 border border-slate-100 shadow-sm animate-pulse"
-            >
-              <div className="w-full aspect-square bg-slate-200 rounded-xl" />
-              <div className="h-4 bg-slate-200 rounded mt-4 w-3/4" />
-              <div className="h-3 bg-slate-200 rounded mt-2 w-1/2" />
-            </div>
-          ))}
+    <section className="w-full bg-[#f8fafc] dark:bg-[#0b0f19] py-16 px-4 sm:px-6 lg:px-8 transition-colors">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center max-w-2xl mx-auto mb-10">
+          <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight">
+            Trending Apps
+          </h2>
+          <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
+            Explore All Trending Apps on the Market developed by us
+          </p>
         </div>
-      ) : (
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-left">
-          {visibleApps.map((app) => (
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {trendingApps.map((app) => (
             <Link
               href={`/apps/${app.id}`}
               key={app.id}
-              className="group bg-white rounded-2xl p-4 shadow-sm hover:shadow-md border border-slate-100 transition-all flex flex-col justify-between"
+              className="bg-white dark:bg-slate-900 border border-slate-100 dark:border-slate-800 rounded-2xl p-4 shadow-xs hover:shadow-md transition-all flex flex-col justify-between"
             >
               <div>
-                {/* Image Preview Container */}
-                <div className="w-full aspect-square rounded-xl bg-slate-100 overflow-hidden relative">
+                <div className="w-full aspect-square rounded-xl bg-slate-50 dark:bg-slate-800/50 p-6 relative flex items-center justify-center">
                   <Image
                     src={app.image}
                     alt={app.title}
                     fill
                     unoptimized
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="object-contain p-4 hover:scale-105 transition-transform duration-300"
                   />
                 </div>
 
-                {/* Title & Publisher */}
                 <div className="mt-4">
-                  <h3 className="font-semibold text-slate-800 text-sm sm:text-base line-clamp-1 group-hover:text-indigo-600 transition-colors">
+                  <h3 className="font-semibold text-slate-800 dark:text-slate-100 text-sm line-clamp-1">
                     {app.title}
                   </h3>
-                  <p className="text-xs text-slate-400 mt-0.5">
-                    {app.companyName}
-                  </p>
+                  <p className="text-xs text-slate-400 mt-0.5">{app.companyName}</p>
                 </div>
               </div>
 
-              {/* Badges */}
               <div className="mt-5 flex items-center justify-between pt-1">
-                <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#ecfdf5] text-[#10b981] text-xs font-semibold">
-                  <FiDownload className="text-xs stroke-[2.5]" />
+                <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-emerald-50 dark:bg-emerald-950/40 text-emerald-600 dark:text-emerald-400 text-xs font-semibold">
+                  <FiDownload className="text-xs" />
                   <span>{app.downloads}</span>
                 </div>
-
-                <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#fffbeb] text-[#f59e0b] text-xs font-semibold">
+                <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-50 dark:bg-amber-950/40 text-amber-500 text-xs font-semibold">
                   <FaStar className="text-xs" />
                   <span>{app.ratingAvg ? app.ratingAvg.toFixed(1) : '5.0'}</span>
                 </div>
@@ -104,19 +81,16 @@ const TrendingApps = () => {
             </Link>
           ))}
         </div>
-      )}
 
-      {/* Show All Button */}
-      <div className="mt-12">
-        <Link
-          href="/apps"
-          className="inline-block px-8 py-3 bg-[#6366f1] hover:bg-[#4f46e5] text-white text-sm font-semibold rounded-lg shadow-sm hover:shadow-md transition-all active:scale-95"
-        >
-          Show All
-        </Link>
+        <div className="mt-12 text-center">
+          <Link
+            href="/apps"
+            className="inline-flex px-8 py-3 bg-[#6366f1] hover:bg-[#4f46e5] text-white text-sm font-semibold rounded-xl transition-all shadow-md active:scale-95"
+          >
+            Show All
+          </Link>
+        </div>
       </div>
     </section>
   );
-};
-
-export default TrendingApps;
+}

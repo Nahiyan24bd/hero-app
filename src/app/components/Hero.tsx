@@ -1,23 +1,22 @@
 import React from 'react';
 import Image from 'next/image';
-import { IoLogoGooglePlaystore } from 'react-icons/io5';
-import { FaApple } from 'react-icons/fa';
+import { FaGooglePlay, FaApple } from 'react-icons/fa';
 
 export default function Hero() {
   return (
-    <section className="bg-white pt-14 md:pt-20 text-center">
-      <div className="max-w-4xl mx-auto px-4 sm:px-6">
-        {/* Title */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-[#1e293b] tracking-tight leading-tight">
-          We Build <br className="hidden sm:inline" />
-          <span className="text-[#6366f1]">Productive</span> Apps
+    <section className="w-full bg-[#f8fafc] dark:bg-[#0b0f19] pt-12 pb-16 px-4 sm:px-6 lg:px-8 transition-colors">
+      <div className="max-w-4xl mx-auto text-center">
+        {/* Main Heading */}
+        <h1 className="text-4xl sm:text-6xl font-black text-slate-900 dark:text-white tracking-tight leading-tight">
+          We Build <span className="text-[#6366f1] dark:text-[#818cf8]">Productive</span> <br />
+          Apps
         </h1>
 
-        {/* Subtitle */}
-        <p className="mt-5 text-sm sm:text-base md:text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed">
-          At HERO.IO , we craft innovative apps designed to make everyday life simpler,
-          smarter, and more exciting. Our goal is to turn your ideas into digital
-          experiences that truly make an impact.
+        {/* Description */}
+        <p className="mt-6 text-sm sm:text-base text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
+          At HERO.IO, we craft innovative apps designed to make everyday life simpler,
+          smarter, and more exciting. Our goal is to turn your ideas into digital experiences
+          that truly make an impact.
         </p>
 
         {/* Store Buttons */}
@@ -26,32 +25,25 @@ export default function Hero() {
             href="https://play.google.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition-all active:scale-95"
+            className="flex items-center gap-2.5 px-6 py-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 font-semibold text-sm shadow-xs hover:border-slate-300 dark:hover:border-slate-700 transition-all"
           >
-            <IoLogoGooglePlaystore className="text-2xl text-[#01875f]" />
-            <span className="text-sm sm:text-base font-bold text-slate-800">
-              Google Play
-            </span>
+            <FaGooglePlay className="text-emerald-500 text-lg" />
+            <span>Google Play</span>
           </a>
 
           <a
-            href="https://apple.com/app-store"
+            href="https://www.apple.com/app-store/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-white border border-slate-200 shadow-sm hover:shadow-md transition-all active:scale-95"
+            className="flex items-center gap-2.5 px-6 py-3 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-slate-800 dark:text-slate-200 font-semibold text-sm shadow-xs hover:border-slate-300 dark:hover:border-slate-700 transition-all"
           >
-            <div className="w-6 h-6 rounded-md bg-[#0ea5e9] flex items-center justify-center text-white">
-              <FaApple className="text-sm" />
-            </div>
-            <span className="text-sm sm:text-base font-bold text-slate-800">
-              App Store
-            </span>
+            <FaApple className="text-cyan-500 text-xl" />
+            <span>App Store</span>
           </a>
         </div>
-      </div>
 
-      {/* Mockup Showcase - Upgraded Size & Responsive */}
-      <div className="mt-12 flex justify-center items-center px-4">
+        {/* Mockup Showcase Image */}
+         <div className="mt-12 flex justify-center items-center px-4">
       <div className="relative w-full max-w-xs sm:max-w-md md:max-w-xl lg:max-w-2xl">
           <Image
             src="/hero.png"
@@ -62,6 +54,7 @@ export default function Hero() {
             priority
             unoptimized
           />
+        </div>
         </div>
       </div>
     </section>
